@@ -2,7 +2,7 @@
 # Tourist Design System
 
 This is a tourist recommendation system, we utilized Google Maps API for demonstrating the recommended route.
-If Users run out of ideas when they are trying to plan a tourist. Users can use this website by inputing their scheduled sights and time, the system will help generating a next recommended sight for users.
+If Users run out of ideas when they are trying to plan a tourist. Users can use this website by inputing their scheduled sights and time, the system will help generating a next recommended sight for users based on big data analysis.
 
 To note that this repository only contains front-end files (without google maps api).
 
