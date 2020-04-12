@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - tourist_design_3</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans+TC'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Asap+Condensed"rel="stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 class="title">LET'S PLAN YOUR TRIP TOGETHER !</h1>
+    <div class="start">
+      <div class="note" id="note">
+        <hr>
+        <h5>旅遊路線規劃系統</h5>
+        <hr>
+        <div class="check c1">✓</div>
+        <div class="check c2">✓</div>
+        <div class="check c3">✓</div>
+      </div>
+      <div class="pod">
+        <div class="top">
+          <div class="camera"></div>
+        </div>
+        <div id="info_map">
+        <div id="e" class="e" style="opacity: 0;"></div>
+        <div id="map"></div>
+        </div>
+        <div class="bottom">
+          <div id="home" class="home"></div>
+        </div>
+      </div>
+    </div>
+    <div id="check_list" style="opacity:0;">
+      <div id="show">
+        <h3 id="txt">顯示POI</h3>
+        <label class="switch" >
+          <input type="checkbox" id="q1">
+          <span class="slider round" id="s1"></span>
+        </label><br></div>
+    </div>
+    <div id="plate" class="plate" style="opacity:0;">
+      <div class="column" id="pointlist">
+        <div id="method1">① 在地圖上點選</div>
+        <div id="inputbox">
+          <label>② 也可以輸入地點</label>
+          <input id="input_adr" placeholder=" 請輸入地址..."></input>
+          <div id="addbtn" class="addbtn">+新增</div>
+        
+        </div>
+				<h4 id="list">地點清單：</h4>
+        <p id="warn">時間請輸入 0 ~ 23 的數字</p>
+					<div id="latlng"></div>
+					<div id="save" class="save" >送出</div>
+      </div>
+    </div>
+  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0ohr5Bem0BWFAQbaJFaE9lT8PrB7Jadg&libraries=places&callback=initMap" async defer></script>
+  
+
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
