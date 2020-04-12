@@ -7,12 +7,12 @@ If Users run out of ideas when they are trying to plan a tourist. Users can use 
 To note that this repository only contains front-end files (without google maps api).
 
 ### User interface
-![](https://i.imgur.com/cdEXfTv.png)
+![](https://i.imgur.com/GHYwuCR.png)
 
 <br />
 
 #### Click on the map to choose your scheduled travel sights.
-![](https://i.imgur.com/f7ViIyZ.png)
+![](https://i.imgur.com/cdEXfTv.png)
 
 #### Input your scheduled travel time.
 ![](https://i.imgur.com/UPbbOSf.png)
